@@ -1,8 +1,6 @@
-
 import { useState, useContext } from "react"
 import PokemonContext from '../context/PokemonContext';
 import handleFetch from "../utils/handleFetch";
-
 
 const PokemonForm = () => {
     const { setAllPokemon } = useContext(PokemonContext);
